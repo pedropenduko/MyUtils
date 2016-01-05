@@ -1,0 +1,2 @@
+sudo ip route delete 192.168.1.0/24 dev eth0  proto kernel  scope link  src 192.168.1.4
+sudo ip route add 192.168.1.0/24 dev eth0  proto kernel  scope link  src 192.168.1.4 metric 1001
